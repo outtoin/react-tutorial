@@ -1,16 +1,13 @@
 import React from 'react'
+import Header from './Header'
+import Content from './Content';
 
 class App extends React.Component {
-    sayHey(){
-        alert('Hey!');
-    }
-
     render() {
         return ( 
             <div>
-                <h1> Hello SW.Lee </h1>
-                <h2> Welcome </h2>
-                <button onClick={this.sayHey}>Click Me</button>
+                <Header/>
+                <Content/>
             </div>
         );
     }
