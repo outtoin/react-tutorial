@@ -1,4 +1,6 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
+import Contact from './Contact';
 
 class App extends React.Component {
     sayHey(){
@@ -7,11 +9,7 @@ class App extends React.Component {
 
     render() {
         return ( 
-            <div>
-                <h1> Hello SW.Lee </h1>
-                <h2> Welcome </h2>
-                <button onClick={this.sayHey}>Click Me</button>
-            </div>
+            <Contact/>
         );
     }
 }
