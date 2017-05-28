@@ -1,16 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Contact from './Contact';
+import React from "react";
+import ReactDOM from "react-dom";
+import Contact from "./Contact";
 
 class App extends React.Component {
-    sayHey(){
-        alert('Hey!');
+    sayHey() {
+        alert("Hey!");
     }
 
     render() {
-        return ( 
-            <Contact/>
-        );
+        return <Contact />;
     }
 }
 
