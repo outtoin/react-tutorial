@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 class App extends React.Component {
-    sayHey(){
-        alert('Hey!');
+    sayHey() {
+        alert("Hey!");
     }
 
     render() {
-        return ( 
+        return (
             <div>
                 <h1> Hello SW.Lee </h1>
                 <h2> Welcome </h2>
@@ -15,5 +15,3 @@ class App extends React.Component {
         );
     }
 }
-
-export default App;
